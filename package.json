@@ -1,0 +1,14 @@
+{
+  "name": "mmm-qr-remote-link",
+  "version": "1.0.0",
+  "description": "A QR code to the Magic Mirror remote.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  }
+}
