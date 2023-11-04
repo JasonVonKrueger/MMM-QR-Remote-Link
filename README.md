@@ -8,4 +8,9 @@ You can display a QR code to the MagicMirror remote. I'm using it for that and t
 ```
 cd ~/MagicMirror/modules
 git clone https://github.com/JasonVonKrueger/MMM-QR-Remote-Link.git
+cd MMM-QR-Remote-Link
+npm install
 ```
+
+## Configuration
+
