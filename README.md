@@ -16,4 +16,23 @@ npm install
 ```
 
 ## Configuration
-
+```
+{
+    module: 'MMM-QR-Remote-Link',
+    position: 'bottom_left',
+    config: {
+        size: 80, // in pixels...height and width are set to this
+        text: 'MagicMirror Remote',
+        endpoint: '/remote.html' // must start with a "/"
+    }
+},
+{
+    module: 'MMM-QR-Remote-Link',
+    position: 'bottom_left',
+    config: {
+        size: 80, // in pixels...height and width are set to this
+        text: 'Renumber Remote',
+        endpoint: '/MMM-ReNumber/remote.html' // must start with a "/"
+    }
+},
+```
