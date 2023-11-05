@@ -1,12 +1,16 @@
 {
   "name": "mmm-qr-remote-link",
   "version": "1.0.0",
-  "description": "A QR code to the Magic Mirror remote.",
-  "main": "index.js",
+  "description": "A QR code to the MagicMirror² remote.",
+  "main": "MMM-QR-Remote-Link.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonVonKrueger/MMM-QR-Remote-Link.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "JasonVonKrueger",
   "license": "Apache-2.0",
   "dependencies": {
     "qrcode": "^1.5.3"
