@@ -10,6 +10,7 @@ module.exports = NodeHelper.create({
     },
 
     getIP: function () {
+        // this is assuming a wifi connection and probably a Raspberry PI is used
         let nic = os.networkInterfaces();
         return nic.wlan0[0].address.toString();
     },
