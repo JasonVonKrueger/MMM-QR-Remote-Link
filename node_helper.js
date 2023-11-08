@@ -26,9 +26,6 @@ module.exports = NodeHelper.create({
                 .catch(err => {
                     console.error(err)
                 })
-
-            //self.sendSocketNotification("IP_ADDRESSES", this.buildQRCode());
-            console.log('socket notification received');
         }
     }
 });
